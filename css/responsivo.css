@@ -68,7 +68,7 @@
         position: relative;
         float: none;
 
-        background-color: deeppink;
+        background-color: aqua;
     }
 
     .main-header .container {
@@ -187,5 +187,6 @@
 
     .footer-copy p {
         font-size: 0.8em;
+        padding: 8px 0;
     }
 }
