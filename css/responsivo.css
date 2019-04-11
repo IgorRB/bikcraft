@@ -67,8 +67,6 @@
     .main-header {
         position: relative;
         float: none;
-
-        background-color: aqua;
     }
 
     .main-header .container {
@@ -163,7 +161,7 @@
     }
 
     .main-produto .produto-info ul {    
-        margin-top: 12px;
+        margin-top: 13px;
         width: 300px;
     }
     
