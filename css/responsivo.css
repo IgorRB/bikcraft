@@ -1,3 +1,5 @@
+/*tablets*/
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
     img {
@@ -53,6 +55,8 @@
         margin-left: 420px;
     }
 }
+
+/* Smartphone */
 
 @media only screen and (max-width: 767px) {
 
@@ -115,7 +119,7 @@
     }
 
     .introducao .container {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .call-to-action {
@@ -177,5 +181,9 @@
 
     .citacao-cliente cite {
         margin-left: 120px;
+    }
+
+    .footer-copy p {
+        font-size: 0.8em;
     }
 }
