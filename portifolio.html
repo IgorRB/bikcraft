@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script src="./js/modernizr.custom.45655.js"></script>
 </head>
 <body>
 
@@ -36,34 +37,64 @@
 	</section>
 
 	<section class="container">
-		<div class="citacao-cliente grid-16">
-			<blockquote class="quote-externo">
-				<p>"Sou cliente, gostei muito da bikcraft, encheção de linguiça blábláblá... sou cliente, gostei muito da
-					bicicleta, encheção de linguiça blábláblá."</p>
-			</blockquote>
-			<cite>Cliente qualquer</cite>
+		<div class="citacao-cliente animar-interno grid-16">
+			<ul class="rslides">
+				<li>
+					<blockquote class="quote-externo">
+						<p>"Sou cliente, gostei muito da bikcraft, encheção de linguiça blábláblá... sou cliente, gostei muito da
+							bicicleta, encheção de linguiça blábláblá."</p>
+					</blockquote>
+					<cite>Cliente qualquer</cite>
+				</li>
+
+				<li>
+					<blockquote class="quote-externo">
+						<p>"A lua me traiu!	Acreditei que era pra valer	A lua me traiu!	Fiquei sozinha E louca por você Ah Ah! <br> Ah Ah!
+							Não consigo te esquecer"</p>
+					</blockquote>
+					<cite>Joelma</cite>
+				</li>
+
+				<li>
+					<blockquote class="quote-externo">
+						<p>"Your beauty is beyond compare, With flaming locks of auburn hair, With ivory skin and eyes of emerald green
+							Your smile is like a breath of spring"</p>
+					</blockquote>
+					<cite>Jolene</cite>
+				</li>
+			</ul>
 		</div>
 	</section>
 
-	<section class="portifolio">
+	<section class="portifolio animar-interno">
 		<div class="container">
 			<h2 class="subtitulo"> Portifólio </h2>
-	
-			<ul class="lista-portifolio">
-				<li class="grid-8">
-					<img src="img/portfolio/passeio.jpg" alt="bicicleta passeio">
+
+			<ul class="lista-portifolio rslides-portifolio">
+				<li>
+					<div class="grid-8">
+						<img src="img/portfolio/passeio.jpg" alt="bicicleta passeio">
+					</div>
+					<div class="grid-8">
+						<img src="img/portfolio/retro.jpg" alt="Bicicleta retro">
+					</div>
+					<div class="grid-16">
+						<img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+					</div>
 				</li>
-				<li class="grid-8">
-					<img src="img/portfolio/retro.jpg" alt="Bicicleta retro">
-				</li>
-				<li class="grid-16">
-					<img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+
+				<li>
+					<div class="grid-8">
+						<img src="img/portfolio/retro.jpg" alt="Bicicleta retro">
+					</div>
+					<div class="grid-8">
+						<img src="img/portfolio/passeio.jpg" alt="bicicleta passeio">
+					</div>					
+					<div class="grid-16">
+						<img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+					</div>
 				</li>
 			</ul>
-	
-			<div class="portifolio-bolinhas">
-				<p>...</p>
-			</div>
 	
 		</div>
 	</section>
@@ -113,6 +144,11 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- JAVA SCRIPT -->
+	<script src="./js/jquery-1.8.3.min.js"></script>
+	<script src="./js/plugins.js"></script>
+	<script src="./js/main.js"></script>
 	
 </body>
 </html>

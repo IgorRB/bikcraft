@@ -63,7 +63,7 @@
     img {
         max-width: 100%;
     }
-
+    
     .main-header {
         position: relative;
         float: none;
@@ -161,7 +161,7 @@
     }
 
     .main-produto .produto-info ul {    
-        margin-top: 13px;
+        margin-top: 16px;
         width: 300px;
     }
     
@@ -185,6 +185,15 @@
 
     .footer-copy p {
         font-size: 0.8em;
-        padding: 8px 0;
+    }
+
+    /*Portifolio*/
+
+    .portifolio .lista-portifolio li div {
+        margin-bottom: 20px;
+    }
+    
+    .portifolio .lista-portifolio li div:last-of-type {
+        margin-bottom: 0px;
     }
 }
